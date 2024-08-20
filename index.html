@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globe Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .py-20 {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .h-screen {
+            height: 100vh;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .max-w-7xl {
+            max-width: 80rem;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-xl {
+            font-size: 1.25rem;
+        }
+
+        .md\:text-4xl {
+            font-size: 2.25rem;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .text-black {
+            color: black;
+        }
+
+        .dark\:text-white {
+            color: white;
+        }
+
+        .text-base {
+            font-size: 1rem;
+        }
+
+        .md\:text-lg {
+            font-size: 1.125rem;
+        }
+
+        .font-normal {
+            font-weight: normal;
+        }
+
+        .text-neutral-700 {
+            color: #4a4a4a;
+        }
+
+        .dark\:text-neutral-200 {
+            color: #e5e5e5;
+        }
+
+        .max-w-md {
+            max-width: 28rem;
+        }
+
+        .mt-2 {
+            margin-top: 0.5rem;
+        }
+
+        .bg-gradient-to-b {
+            background: linear-gradient(to bottom, var(--tw-gradient-stops));
+        }
+
+        .from-transparent {
+            --tw-gradient-from: transparent;
+        }
+
+        .dark\:to-black {
+            --tw-gradient-to: black;
+        }
+
+        .to-white {
+            --tw-gradient-to: white;
+        }
+
+        .z-40 {
+            z-index: 40;
+        }
+
+        .z-10 {
+            z-index: 10;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .bottom-0 {
+            bottom: 0;
+        }
+
+        .-bottom-20 {
+            bottom: -5rem;
+        }
+
+        .inset-x-0 {
+            left: 0;
+            right: 0;
+        }
+
+        .h-40 {
+            height: 10rem;
+        }
+
+        .h-72 {
+            height: 18rem;
+        }
+
+        .md\:h-auto {
+            height: auto;
+        }
+
+        .md\:h-full {
+            height: 100%;
+        }
+
+        .md\:h-\[40rem\] {
+            height: 40rem;
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    </style>
+</head>
+
+<body class="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
+    <div class="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+        <div class="div">
+            <h2 class="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+                We sell soap worldwide
+            </h2>
+            <p class="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+                This globe is interactive and customizable. Have fun with it, and
+                don't forget to share it. :)
+            </p>
+        </div>
+        <div class="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40"></div>
+        <div class="absolute w-full -bottom-20 h-72 md:h-full z-10">
+            <!-- Globe component goes here -->
+        </div>
+    </div>
+</body>
+
+</html>

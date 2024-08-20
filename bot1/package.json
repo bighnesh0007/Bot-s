@@ -1,0 +1,19 @@
+{
+  "name": "bot1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "node-fetch": "^3.3.2",
+    "request": "^2.88.2"
+  }
+}
